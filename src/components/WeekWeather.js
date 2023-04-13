@@ -42,3 +42,17 @@
 // };
 
 // export default WeekWeather;  
+import React from "react";
+import TemperatureChart from "./TemperatureChart";
+
+const WeekWeather = () => {
+  // ...
+  return (
+    <div>
+      // ...
+      <TemperatureChart />
+    </div>
+  );
+};
+
+export default WeekWeather;

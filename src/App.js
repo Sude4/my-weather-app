@@ -6,12 +6,14 @@ import './App.css'
 
 
 
+
 function App() {
   return (
     <WeatherProvider>
       <div className="App">
         <LocationInput />
         <Weather />
+      
       </div>
     </WeatherProvider>
   );
